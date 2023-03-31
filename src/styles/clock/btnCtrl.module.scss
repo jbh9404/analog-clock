@@ -1,0 +1,28 @@
+@import "../variables.module.scss";
+
+.btn-ctrl {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  .btn {
+    background: #ffffff;
+    border: 3.5px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .orange {
+    background: $orange-gradient;
+    @include gradient-txt;
+  }
+  .purple {
+    background: $purple-gradient;
+    @include gradient-txt;
+  }
+  .green {
+    background: $green-gradient;
+    @include gradient-txt;
+  }
+}

@@ -1,0 +1,10 @@
+$orange-gradient: linear-gradient(130.64deg, #ff533b 26.21%, #ffcc48 117.68%);
+$purple-gradient: linear-gradient(to right, #8e2de2, #4a00e0);
+$green-gradient: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+
+@mixin gradient-txt {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
